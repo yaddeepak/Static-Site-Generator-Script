@@ -1,0 +1,682 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+}
+
+/* Frame 6 */
+.image-14 {
+  position: absolute;
+  width: 772px;
+  height: 156px;
+  left: 0px;
+  top: 962px;
+  background: #2b2b35;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 119px;
+  position: absolute;
+  width: 586px;
+  height: 60px;
+  left: 80px;
+  top: 1010px;
+}
+
+/* Frame 33119 */
+
+.frame-33119 {
+  width: 242px;
+  height: 60px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* card-send */
+
+.card-send {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+}
+
+/* Frame 33117 */
+
+.frame-33117 {
+  position: absolute;
+  width: 162px;
+  height: 47px;
+  left: 80px;
+  top: 7px;
+}
+
+/* accessibility */
+.accessibility {
+  position: absolute;
+  width: 107px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #b5b5c2;
+}
+/* 0.32 */
+
+.acc-val {
+  position: absolute;
+  width: 162px;
+  height: 24px;
+  left: 0px;
+  top: 23px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100px;
+  /* or 417% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Frame 33118 */
+.frame-33118 {
+  width: 225px;
+  height: 60px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+}
+
+/* shield-tick */
+.shield-tick {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+}
+
+/* Frame 331177 */
+
+.frame-331177 {
+  position: absolute;
+  width: 145px;
+  height: 52px;
+  left: 80px;
+  top: 2px;
+}
+
+/* TYPE */
+.type {
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #b5b5c2;
+}
+
+/* SOCIAL */
+.typ-val {
+  position: absolute;
+  width: 145px;
+  height: 24px;
+  left: 0px;
+  top: 28px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100px;
+  /* or 417% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Frame 11 */
+
+.frame-11 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 667px;
+  height: 821px;
+  left: 80px;
+  top: 72px;
+}
+
+/* 2237769 */
+
+.key {
+  width: 176px;
+  height: 30px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #2b2b35;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* Frame 7 */
+
+.frame-7 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+
+  width: 667px;
+  height: 787px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 4 */
+.frame-4 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 667px;
+  height: 667px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Frame 2 */
+.frame-2 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 667px;
+  height: 486px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Frame 1 */
+.frame-1 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 667px;
+  height: 342px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Explore the nightlife of your city */
+.text-1 {
+  width: 600px;
+  height: 270px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 90px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* Outdoor & Sporting Goods Company */
+
+.text-2 {
+  width: 516px;
+  height: 48px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100px;
+  /* or 417% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 33131 */
+.frame-33131 {
+  width: 351px;
+  height: 104px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+}
+
+/* Frame 33116 */
+.frame-33116 {
+  position: absolute;
+  width: 249px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  background: #d93a31;
+  border-radius: 0px;
+}
+
+/* EXPLORE MORE */
+.explore {
+  position: absolute;
+  width: 122.48px;
+  height: 32px;
+  left: 29.6px;
+  top: 14px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100px;
+  /* or 714% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Arrow */
+.arrow {
+  position: absolute;
+  left: 176.57px;
+  top: 26px;
+}
+
+/* We have more special goods for you 🚀 */
+
+.text-3 {
+  position: absolute;
+  width: 351px;
+  height: 30px;
+  left: 0px;
+  top: 74px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  display: flex;
+  align-items: center;
+
+  color: #2b2b35;
+}
+
+/* Frame 3 */
+.frame-3 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 94px;
+
+  width: 468px;
+  height: 133px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+}
+
+/* Frame 33132 */
+.frame-33132 {
+  width: 182px;
+  height: 133px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* 50+ */
+.text-6 {
+  position: absolute;
+  width: 152px;
+  height: 100px;
+  left: 0px;
+  top: 15px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* adventure product */
+.text-5 {
+  position: absolute;
+  width: 176px;
+  height: 30px;
+  left: 6px;
+  top: 103px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* More than */
+.text-4 {
+  position: absolute;
+  width: 176px;
+  height: 30px;
+  left: 6px;
+  top: 0px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* Frame 33133 */
+.frame-33133 {
+  width: 192px;
+  height: 133px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+}
+
+/* 75+ */
+.text-9 {
+  position: absolute;
+  width: 192px;
+  height: 100px;
+  left: 0px;
+  top: 15px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* OUTLET IN INDONESIA */
+.text-8 {
+  position: absolute;
+  width: 176px;
+  height: 30px;
+  left: 6px;
+  top: 103px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* More than */
+.text-7 {
+  position: absolute;
+  width: 176px;
+  height: 30px;
+  left: 6px;
+  top: 0px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #2b2b35;
+}
+
+/* Frame 10 */
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  position: absolute;
+  width: 61px;
+  height: 80px;
+  left: 1329px;
+  top: 72px;
+}
+
+/* Price */
+.price {
+  width: 61px;
+  height: 40px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #141111;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* 0.1 */
+.price-val {
+  width: 26px;
+  height: 40px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.group-33127 {
+  position: absolute;
+  width: 334px;
+  height: 334px;
+  left: 1106px;
+  top: 451px;
+}
+
+.group-33114 {
+  position: absolute;
+  width: 668px;
+  height: 668px;
+  left: 768px;
+  top: 451px;
+}
+
+.group-33115 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1056px;
+  top: 734px;
+}
+.group-33128 {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  left: 1175px;
+  top: 520px;
+}
+
+.text-10 {
+  position: absolute;
+  width: 166px;
+  height: 24px;
+  left: 1197px;
+  top: 727px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 250% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
