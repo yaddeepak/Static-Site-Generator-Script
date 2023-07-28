@@ -44,6 +44,34 @@ To achieve a 100 Lighthouse score, the following optimizations were made to the 
 - CSS and JavaScript files were minified and bundled.
 
 
+# Implementation
+
+Import Required Modules:
+The script starts by importing the necessary modules: fs/promises and ejs.
+
+Define Template Path and Output Folder:
+The script defines two constants: templatePath and outputFolder, which represent the file path of the EJS template and the output folder for generated pages, respectively.
+
+Initialize templateContent:
+The templateContent variable is declared to store the content of the EJS template. It will be initialized when the script reads the template file.
+
+readTemplate() Function:
+This function reads the content of the EJS template from the specified templatePath file using fs.readFile. 
+
+fetchActivityData() Function:
+This function fetches data from the "https://www.boredapi.com/api/activity" API using the fetch() function. It then converts the response to JSON format using response.json() and returns the data. 
+
+generatePage(pageNumber) Function:
+This function generates a single page using the EJS template and unique data fetched from the API. It first checks if the templateContent is available; if not, it logs an error message and returns. Next, it calls the fetchActivityData() function to get the unique data for the page. If the data is not available, it logs an error message and returns.
+
+
+generatePages() Function:
+This function is the main entry point of the script. It first checks if the templateContent is available; if not, it logs an error message and returns. 
+The function generates 10 unique pages by calling the generatePage() function 10 times, each with a unique pageNumber.
+
+
+The script generates unique pages by fetching different activity data from the API for each page. It uses EJS as the templating engine to populate the data into the HTML template and creates 10 pages in the ./dist folder.
+
 
 
 
