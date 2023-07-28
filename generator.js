@@ -15,7 +15,6 @@ async function readTemplate() {
   }
 }
 
-// Helper function to fetch API data
 async function fetchActivityData() {
   try {
     const response = await fetch("https://www.boredapi.com/api/activity");
@@ -29,7 +28,7 @@ async function fetchActivityData() {
   }
 }
 
-// Helper function to generate a unique page
+
 async function generatePage(pageNumber) {
   try {
     if (!templateContent) {
