@@ -1,0 +1,61 @@
+/* style.css */
+body {
+    margin-top:0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align the content within the body */
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    display: inline-block; /* Display the sidebar as an inline-block element */
+    text-align: left; /* Align the text content (links) to the left */
+  }
+  
+  .sidebar h1 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Display links as block elements to take full width */
+    text-align: left; /* Align link text to the left */
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    margin: 0 0 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
